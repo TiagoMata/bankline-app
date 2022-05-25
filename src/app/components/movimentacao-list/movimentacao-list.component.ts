@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./movimentacao-list.component.css']
 })
 export class MovimentacaoListComponent implements OnInit {
-
+// movimentacao-list.component.ts
+movimentacoes:any;
   constructor() { }
 
   ngOnInit(): void {
